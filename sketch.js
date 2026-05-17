@@ -60,7 +60,7 @@ function setup() {
   // image(img, x, y, width, height) draws a loaded image
   // x and y are the TOP-LEFT corner of the image
   // The last two arguments resize the image to fit that space
-  image(controllerImg, 50, 85, 300, 300);
+  image(controllerImg, 50, 85, 200, 200);
 
   // ----------------------------------------------------------
   // SECTION 3: DRAWING SHAPES (a controller made of shapes!)
