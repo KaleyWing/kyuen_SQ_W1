@@ -45,7 +45,7 @@ function setup() {
   textAlign(CENTER);
 
   // textSize can be changed at any point — it applies to text drawn after it
-  textSize(35);
+  textSize(9);
 
   // width and height are built-in p5.js variables that
   // always hold the canvas width and height
