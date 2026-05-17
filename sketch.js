@@ -30,7 +30,7 @@ function setup() {
 
   // background() fills the canvas with a colour
   // A single number = greyscale (0 is black, 255 is white)
-  background(100);
+  background(200);
 
   // ----------------------------------------------------------
   // SECTION 1: TEXT
@@ -38,20 +38,20 @@ function setup() {
 
   // fill() sets the colour used for shapes AND text
   // Three numbers = red, green, blue (each 0–255)
-  fill(218, 177, 218); // purple
+  fill(0, 177, 218); //
 
   // textAlign() controls how text is anchored to its x position
   // CENTER means the x coordinate is the middle of the text
   textAlign(CENTER);
 
   // textSize can be changed at any point — it applies to text drawn after it
-  textSize(9);
+  textSize(20);
 
   // width and height are built-in p5.js variables that
   // always hold the canvas width and height
   fill(180);
-  text("Image loaded from assets/images/", width / 4, 65);
-  text("Drawn using p5.js shapes", (width / 4) * 3, 65);
+  text("Image loaded from assets/images/", width / 4, 25);
+  text("Drawn using p5.js shapes", (width / 4) * 3, 25);
 
   // ----------------------------------------------------------
   // SECTION 2: DISPLAYING AN IMAGE
