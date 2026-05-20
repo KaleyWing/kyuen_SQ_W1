@@ -1,5 +1,6 @@
 // ============================================================
 // Simple Drawing Game
+let pen;
 
 function preload() {
   pen = loadImage("assets/images/pen/pen.jpg");
@@ -16,14 +17,19 @@ function setup() {
   textSize(16);
   textAlign(CENTER);
   text("Click and hold to draw! Press 'c' to clear the canvas.", width / 2, 30);
+
+  imageMode(CENTER);
+  rectMode(CORNERS);
 }
 
 function draw() {
   if (mouseIsPressed) {
+    fill(100, 150, 255, 50);
     stroke(0);
-    strokeWeight(4);
+    strokeWeight(2);
+    rect(startX, startY, mouseX, mouseY);
 
-    line(pmouseX, pmouseY, mouseX, mouseY);
+    image(pen, mouseX, mouseY, 50, 50);
   }
 }
 
