@@ -13,3 +13,5 @@
 //No external assets (images, sounds, or fonts) were used in this projec
 
 ## References
+
+[1] Panom. Pen illustration. https://www.vecteezy.com/vector-art/21662123-ink-pen-icon-vector-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration
