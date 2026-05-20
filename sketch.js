@@ -1,6 +1,10 @@
 // ============================================================
 // Simple Drawing Game
 
+function preload() {
+  pen = loadImage("assets/images/pen/pen.jpg");
+}
+
 function setup() {
   createCanvas(800, 450);
 
