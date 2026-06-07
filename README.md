@@ -10,7 +10,11 @@
 
 ## Assets
 
-//No external assets (images, sounds, or fonts) were used in this projec
+## Assets
+
+| File                       | Source                             |
+| -------------------------- | ---------------------------------- |
+| `assets/images/pen.jpg`    | Panom -- vecteezy.com [1]          |
 
 ## References
 
